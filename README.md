@@ -15,10 +15,15 @@ This application is distributed under the [MIT](https://opensource.org/licenses/
   - [Contributions](#Contributions)
   ## Usage
   Use this application to draft and finalize your software engineering team with defined roles and key attributes for that role.
+  
+  Wireframe:
+  
+  ![Wireframe](https://user-images.githubusercontent.com/112971337/195434440-b92d4061-7b8c-416c-a28a-d7b3e8794b2e.png)
+
   ## Installation
   In order to run this application you need Node.js installed. Then, you must use the command node index in your command-line to be prompted with the questions related to your softwareengineering team. A Google drive demo of this explanation will be provided in the following line:
   ## Tests
-  Four test were coducted to ensure information would input correctly. [click here](https://github.com/jwiz9/bug-free-meme/tree/main/Sample) to see a sample HTML and its image generated using Node.js.
+  [Click here](https://github.com/jwiz9/bug-free-meme/tree/main/Sample) to see a sample HTML and its image generated using Node.js.
   ## Contributors
   Contributors: 
   Jordan Heath
