@@ -1,4 +1,24 @@
 {
+  "name": "bug-free-meme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwiz9/bug-free-meme.git"
+  },
+  "author": "jwiz9",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/jwiz9/bug-free-meme/issues"
+  },
+  "homepage": "https://github.com/jwiz9/bug-free-meme#readme",
   "dependencies": {
     "inquirer": "^8.2.4",
     "jest": "^24.9.0"
