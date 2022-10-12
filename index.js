@@ -5,6 +5,7 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const writeFile = require("./src/generateFiles");
 
+// Manager Class
 let managerQuestions = [
     {
         type: "input",
@@ -56,6 +57,7 @@ let managerQuestions = [
     },
 ]
 
+// Employee Class to create another intern, engineer, or stop creating new cards
 let employeeTypeQuestion = [
     {
         type: "list",
@@ -65,7 +67,7 @@ let employeeTypeQuestion = [
     }
 ]
 
-
+// Engineer Class
 let engineerQuestions = [
     {
         type: "input",
@@ -117,6 +119,7 @@ let engineerQuestions = [
     },
 ]
 
+// Intern Class
 let internQuestions = [
     {
         type: "input",
@@ -168,6 +171,7 @@ let internQuestions = [
     },
 ]
 
+// Converts prompt data into employee classes
 const makeTeam = async () => {
     let interns = [];
     let engineers = [];

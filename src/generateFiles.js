@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-// Creates the HTML file in the (dist) sub-directory after data is provided from generatedHtml function
+// Creates the HTML file in the dist after data is provided from generatedHtml function
 let writeFile = htmlContent => {
     return new Promise((resolve, reject) => {
         fs.writeFile("./dist/index.html", htmlContent, err => {

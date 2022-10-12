@@ -65,7 +65,7 @@ const createTeamCards = (registeredManager, engineers, interns) => {
     `
 }
 
-// HTML that will be sent to the (dist) sub-directory
+// HTML that will be sent to the dist 
 const generateHtml = data => {
     const {registeredManager, interns, engineers} = data;
     return `
@@ -82,7 +82,6 @@ const generateHtml = data => {
         <body>
             <header>
                 <h1>Team Roster</h1>
-                <p><a href="https://github.com/jwiz9" target="_blank">Github Creator: jwiz9</a></p>
             </header>
             <main>
                 <section>

@@ -1,3 +1,5 @@
+/* Style CSS to generate styling to HTML created in dist */
+/* Colors for cards can be adjusted in root to suit users preferences */
 :root {
     --primary-color: #000;
     --secondary-color: #888884;
@@ -22,23 +24,12 @@ header {
     height: 15vh;
     border-radius: 8px;
     text-align: center;
-    background-color: rgba(241, 76, 35, 0.8);
-    color: rgba(255, 255, 255, 0.9);
+    background-color: red;
+    color: white;
 }
 
 header h1 {
     font-size: 2.8rem;
-}
-
-header p {
-    font-size: 1.3rem;
-    margin: 10px 0;
-    color: var(--secondary-color);
-}
-
-header p a {
-    text-decoration: none;
-    color: white;
 }
 
 section {
@@ -94,11 +85,6 @@ section >:nth-child(even) {
 .card__title {
     padding-bottom: 20px;
 }
-
-@media screen and (max-width: 1200px) {
-
-}
-
 
 @media screen and (max-width: 980px) {
     .card {
