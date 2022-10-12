@@ -9,7 +9,7 @@ test("Creates an Intern object", () => {
     expect(intern.school).toBe("Cal");
 })
 
-test("returns Intern name, email, id, school and role", () => {
+test("Returns Intern name, email, id, school and role", () => {
     const intern = new Intern("Daniel", 41, "daniel@gmail.com", "Cal");
 
     expect(intern.getName()).toBe("Daniel");

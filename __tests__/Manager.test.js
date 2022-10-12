@@ -1,6 +1,6 @@
 const Manager = require("../lib/Manager");
 
-test("Creates an manager object", () => {
+test("Creates an Manager object", () => {
     const manager = new Manager("Heather", 40, "heather@gmail.com", 501);
 
     expect(manager.name).toBe("Heather");
@@ -9,7 +9,7 @@ test("Creates an manager object", () => {
     expect(manager.officeNumber).toEqual(expect.any(Number));
 })
 
-test("returns manager name, email, id, and role", () => {
+test("Returns Manager name, email, id, and role", () => {
     const manager = new Manager("Heather", 40, "heather@gmail.com", 501);
 
     expect(manager.getName()).toBe("Heather");

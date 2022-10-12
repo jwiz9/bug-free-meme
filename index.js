@@ -9,7 +9,7 @@ let managerQuestions = [
     {
         type: "input",
         name: "managerName",
-        message: "Enter the Manager's name (Required)",
+        message: "Please enter the Manager's name",
         validate: questionInput => {
             if (questionInput) {
                 return true;
@@ -21,19 +21,19 @@ let managerQuestions = [
     {
         type: "input",
         name: "managerId",
-        message: "Enter the Manager's ID (Required)",
+        message: "Please enter the Manager's ID",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in Manager's ID!");
+            console.log("You have to type in the Manager's ID!");
             return false;
         }
     },
     {
         type: "input",
         name: "managerEmail",
-        message: "Enter the Manager's email (Required)",
+        message: "Please enter the Manager's email",
         validate: questionInput => {
             if (questionInput) {
                 return true;
@@ -45,12 +45,12 @@ let managerQuestions = [
     {
         type: "input",
         name: "managerOfficeNumber",
-        message: "Enter the Manager's office number (Required)",
+        message: "Please enter the Manager's office number",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in Manager's office number!");
+            console.log("You have to type in the Manager's office number!");
             return false;
         }
     },
@@ -60,7 +60,7 @@ let employeeTypeQuestion = [
     {
         type: "list",
         name: "employeeType",
-        message: "Choose an intern or engineer to add to your roster.  Choose exit to just have a manager",
+        message: "Choose an Intern or Engineer to add to your roster, or choose exit to just have a manager",
         choices: ["engineer", "intern", "exit"]
     }
 ]
@@ -70,48 +70,48 @@ let engineerQuestions = [
     {
         type: "input",
         name: "engineerName",
-        message: "Enter the engineer's name (Required)",
+        message: "Please enter the Engineer's name",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in the engineer's name!");
+            console.log("You have to type in the Engineer's name!");
             return false;
         }
     },
     {
         type: "input",
         name: "engineerId",
-        message: "Enter the engineer's ID (Required)",
+        message: "Please enter the Engineer's ID",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in engineer's ID!");
+            console.log("You have to type in the Engineer's ID!");
             return false;
         }
     },
     {
         type: "input",
         name: "engineerEmail",
-        message: "Enter the engineer's email (Required)",
+        message: "Please enter the Engineer's email",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in the engineer's email!");
+            console.log("You have to type in the Engineer's email!");
             return false;
         }
     },
     {
         type: "input",
         name: "github",
-        message: "Enter the engineer's github username (Required)",
+        message: "Please enter the Engineer's github username",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in the engineer's username!");
+            console.log("You have to type in the Engineer's username!");
             return false;
         }
     },
@@ -121,48 +121,48 @@ let internQuestions = [
     {
         type: "input",
         name: "internName",
-        message: "Enter the intern's name (Required)",
+        message: "Please enter the Intern's name",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in the intern's name!");
+            console.log("You have to type in the Intern's name!");
             return false;
         }
     },
     {
         type: "input",
         name: "internId",
-        message: "Enter the intern's ID (Required)",
+        message: "Please enter the Intern's ID",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in the intern's ID!");
+            console.log("You have to type in the Intern's ID!");
             return false;
         }
     },
     {
         type: "input",
         name: "internEmail",
-        message: "Enter the intern's email (Required)",
+        message: "Please enter the Intern's email",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in the intern's email!");
+            console.log("You have to type in the Intern's email!");
             return false;
         }
     },
     {
         type: "input",
         name: "school",
-        message: "Enter the intern's school (Required)",
+        message: "Please enter the Intern's school",
         validate: questionInput => {
             if (questionInput) {
                 return true;
             }
-            console.log("You have to type in the intern's school!");
+            console.log("You have to type in the Intern's school!");
             return false;
         }
     },

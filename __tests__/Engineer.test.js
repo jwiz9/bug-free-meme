@@ -1,6 +1,6 @@
 const Engineer = require("../lib/Engineer");
 
-test("Creates an manager object", () => {
+test("Creates an Manager object", () => {
     const engineer = new Engineer("Bernie", 50, "bernie123@gmail.com", "Bernie Waiters");
 
     expect(engineer.name).toBe("Bernie");
@@ -9,7 +9,7 @@ test("Creates an manager object", () => {
     expect(engineer.github).toBe("Bernie Waiters");
 })
 
-test("returns manager name, email, id, and role", () => {
+test("Returns Manager name, email, id, and role", () => {
     const engineer = new Engineer("Bernie", 50, "bernie123@gmail.com", "Bernie Waiters");
 
     expect(engineer.getName()).toBe("Bernie");
