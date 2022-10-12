@@ -75,15 +75,14 @@ const generateHtml = data => {
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Grouper Oracle</title>
+            <title>Team Profile Generator</title>
             <script src="https://kit.fontawesome.com/23e85c6c8b.js" crossorigin="anonymous"></script>
             <link rel="stylesheet" href="../style.css">
         </head>
         <body>
             <header>
                 <h1>Team Roster</h1>
-                <p><a href="https://github.com/jwiz9" target="_blank">By Jordan Heath</a></p>
-                <!-- Icon might go here -->
+                <p><a href="https://github.com/jwiz9" target="_blank">Github Creator: jwiz9</a></p>
             </header>
             <main>
                 <section>
