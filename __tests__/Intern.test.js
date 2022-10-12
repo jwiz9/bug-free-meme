@@ -1,6 +1,6 @@
 const Intern = require("../lib/Intern");
 
-test("Creates an Intern object", () => {
+it("Creates an Intern object", () => {
     const intern = new Intern("Daniel", 41, "daniel@gmail.com", "Cal");
 
     expect(intern.name).toBe("Daniel");
@@ -9,7 +9,7 @@ test("Creates an Intern object", () => {
     expect(intern.school).toBe("Cal");
 })
 
-test("Returns Intern name, email, id, school and role", () => {
+it("Returns Intern name, email, id, school and role", () => {
     const intern = new Intern("Daniel", 41, "daniel@gmail.com", "Cal");
 
     expect(intern.getName()).toBe("Daniel");

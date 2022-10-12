@@ -60,7 +60,7 @@ let employeeTypeQuestion = [
     {
         type: "list",
         name: "employeeType",
-        message: "Choose an Intern or Engineer to add to your roster, or choose exit to just have a manager",
+        message: "Choose Intern or Engineer to add to your roster, or choose exit to stop adding cards",
         choices: ["engineer", "intern", "exit"]
     }
 ]
