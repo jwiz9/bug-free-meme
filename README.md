@@ -21,7 +21,7 @@ This application is distributed under the [MIT](https://opensource.org/licenses/
   ![Wireframe](https://user-images.githubusercontent.com/112971337/195434440-b92d4061-7b8c-416c-a28a-d7b3e8794b2e.png)
 
   ## Installation
-  In order to run this application you need Node.js installed. Then, you must use the command node index in your command-line to be prompted with the questions related to your softwareengineering team. A Google drive demo of this explanation will be provided in the following line:
+  In order to run this application you need Node.js installed. Then, you must use the command "node index" in your command-line to be prompted with questions related to your software engineering team. A Google drive demo of this explanation will be provided in the following line:
   https://drive.google.com/file/d/1zDWSv7mXC5g6iAAQjcKUDsk8g2VDhwmX/view
   ## Tests
   [Click here](https://github.com/jwiz9/bug-free-meme/tree/main/Sample) to see a sample HTML and its image generated using Node.js.
